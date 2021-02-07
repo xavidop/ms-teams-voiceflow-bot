@@ -1,0 +1,45 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.8/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.8",
+    "version": "1..0.0",
+    "showLoadingIndicator": true,
+    "isFullScreen": true,
+    "id": "e39d0ecf-ba09-408b-a39b-c74db2abdac7",
+    "packageName": "com.xavidop.voiceflow",
+    "developer": {
+      "name": "Voiceflow",
+      "websiteUrl": "www.voiceflow.com",
+      "privacyUrl": "https://msteams-bot-minimum.glitch.me/privacy.html",
+      "termsOfUseUrl": "https://msteams-bot-minimum.glitch.me/tou.html"
+    },
+    "icons": {
+      "color": "color.png",
+      "outline": "outline.png"
+    },
+    "name": {
+      "short": "Voiceflow",
+      "full": "Voiceflow Bot"
+    },
+    "description": {
+      "short": "Bot using Voiceflow",
+      "full": "Bot using Voiceflow General Runtime"
+    },
+    "accentColor": "#FFFFFF",
+    "bots": [
+      {
+        "botId": "836acc21-0e76-4219-82b8-742e74638f44",
+        "scopes": [
+          "personal",
+          "team",
+          "groupchat"
+        ],
+        "supportsFiles": true,
+        "isNotificationOnly": false
+      }
+    ],
+    "permissions": [
+      "identity",
+      "messageTeamMembers"
+    ],
+    "validDomains": []
+  }
