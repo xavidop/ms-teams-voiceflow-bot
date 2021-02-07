@@ -1,17 +1,16 @@
 {
-  "name": "echobot",
+  "name": "voiceflowbot",
   "version": "0.0.1",
-  "description": "A simple echoing bot for MS Teams.",
+  "description": "A simple Voiceflow bot for MS Teams.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
+    "@voiceflow/runtime-client-js": "^1.6.0",
     "botbuilder": "^4.10.0",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1"
-  },
-  "engines": {
-    "node": "12.x"
   },
   "repository": {
     "url": ""
