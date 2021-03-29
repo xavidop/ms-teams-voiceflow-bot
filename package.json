@@ -2,9 +2,9 @@
   "name": "voiceflowbot",
   "version": "0.0.1",
   "description": "A simple Voiceflow bot for MS Teams.",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "start": "ts-node index.js"
+    "start": "ts-node index.ts"
   },
   "dependencies": {
     "@voiceflow/runtime-client-js": "^1.14.1",
